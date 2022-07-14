@@ -1,0 +1,123 @@
+.header {
+  // position: absolute;
+  width: 100%;
+  background-color: var(--white-text-color);
+  border-bottom: 1px solid #ececec;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  @include font(700, 26px, 1.19, 0.03em);
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.19;
+  // letter-spacing: 0.03em;
+}
+.logostudio {
+  color: var(--primary-text-color);
+}
+.logostudiofooter {
+  color: var(--white-text-color);
+}
+.navlist li {
+  margin-right: 50px;
+}
+.navlist__item,
+.navlist__item,
+.navlist__item:last-child {
+  margin-right: 0px;
+}
+.navlist.__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navlist__item,
+.navlist__item,
+.navlist__item {
+  @include font(500, 14px, 1.14, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition: color 250ms var(--function-time);
+  &:hover,
+  &:hover,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+.navlist__link {
+  display: block;
+  padding: 32px 0;
+  color: var(--primary-text-color);
+  @include font(500, 14px, 1.14, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
+  transition: color 250ms var(--function-time);
+  &.link-current {
+    color: var(--accent-color);
+  }
+}
+.navlist__link--current {
+  position: relative;
+  color: var(--accent-color);
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+  }
+}
+.container-nav {
+  @extend %align-list;
+}
+.menu-list__nav,
+.menu-list__nav {
+  color: var(--title-text-color);
+  @include font(500, 14px, 1.14, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
+  transition: color 250ms var(--function-time);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.menu-list a {
+  color: var(--title-text-color);
+  @include font(500, 14px, 1.14, 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
+  @extend %align-list;
+  gap: 10px;
+  &:hover,
+  &:focus,
+  &*:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.icon {
+  background: var(--background-icon);
+  fill: currentColor;
+}
+.menu__item {
+  margin-left: 30px;
+}
+.container-hero {
+  @extend %align-list;
+  flex-direction: column;
+  background: #2f303a;
+}
