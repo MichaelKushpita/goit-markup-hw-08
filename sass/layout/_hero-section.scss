@@ -1,27 +1,79 @@
 // hero-section-------
 .container-hero {
-  max-width: 1600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/img17.jpg);
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mobile/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: var(--hero-color);
   margin-right: auto;
   margin-left: auto;
-
-  padding-top: 200px;
-  padding-bottom: 200px;
+  @include mobile {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  @include retina {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/mobile/hero@2x.jpg);
+  }
+  @include tablet {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/tablet/hero.jpg);
+  @include retina {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tablet/hero@2x.jpg);
+  }
+  @include desktop {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/img17.jpg);
+  @include retina {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desktop/hero@2x.jpg);
+  }
+  // padding-top: 200px;
+  // padding-bottom: 200px;
 }
 /* головний заголовок */
 .hero-title {
   margin-bottom: 30px;
   color: var(--white-text-color);
-  @include font(900, 44px, 1.36, 0.06em);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include mobile {
+    @include font(null, 26px, 1.62, null);
+    margin-bottom: 30px;
+  }
+  @include tablet {
+    @include font(null, null, 1.62, 0.06em);
+    margin-bottom: 30px;
+  }
+  @include desktop {
+    @include font(null, 44px, 1.36, null);
+    margin-bottom: 30px;
+  }
   text-align: center;
   text-transform: uppercase;
 }

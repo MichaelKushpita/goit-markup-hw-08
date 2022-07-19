@@ -26,15 +26,23 @@
       <div class="container">
         <div class="container-nav">
           <nav class="container-nav">
-            <a class="logo" href="./index.html">Web<span class="logostudio">Studio</span></a>
+            <a class="logo" href="./index.html"
+              >Web<span class="logostudio">Studio</span></a
+            >
             <ul class="navlist">
-              <li class="navlist__item"><a class="navlist__link" href="./index.html">Студия</a></li>
               <li class="navlist__item">
-                <a class="navlist__link navlist__link--current" href="./portfolio.html"
+                <a class="navlist__link" href="./index.html">Студия</a>
+              </li>
+              <li class="navlist__item">
+                <a
+                  class="navlist__link navlist__link--current"
+                  href="./portfolio.html"
                   >Портфолио</a
                 >
               </li>
-              <li class="navlist__item"><a class="navlist__link" href="">Контакты</a></li>
+              <li class="navlist__item">
+                <a class="navlist__link" href="">Контакты</a>
+              </li>
             </ul>
           </nav>
           <ul class="menu-list">
@@ -62,25 +70,42 @@
           <h1 class="visually-hidden">Список Портфоліо</h1>
           <ul class="portfolio__items">
             <li>
-              <button type="button" class="portfolio__button portfolio__button--active">Все</button>
+              <button
+                type="button"
+                class="portfolio__button portfolio__button--active"
+              >
+                Все
+              </button>
             </li>
             <li>
-              <button type="button" class="portfolio__button portfolio__button--active">
+              <button
+                type="button"
+                class="portfolio__button portfolio__button--active"
+              >
                 Веб-сайты
               </button>
             </li>
             <li>
-              <button type="button" class="portfolio__button portfolio__button--active">
+              <button
+                type="button"
+                class="portfolio__button portfolio__button--active"
+              >
                 Приложения
               </button>
             </li>
             <li>
-              <button type="button" class="portfolio__button portfolio__button--active">
+              <button
+                type="button"
+                class="portfolio__button portfolio__button--active"
+              >
                 Дизайн
               </button>
             </li>
             <li>
-              <button type="button" class="portfolio__button portfolio__button--active">
+              <button
+                type="button"
+                class="portfolio__button portfolio__button--active"
+              >
                 Маркетинг
               </button>
             </li>
@@ -89,11 +114,38 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
-                  <img src="./images/img8.jpg" alt="фото с людьмии" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img8.jpg    1x,
+                        ./images/desktop/img8.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img8.jpg    1x,
+                        ./images/tablet/img8.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img8.jpg    1x,
+                        ./images/mobile/img8.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
+                  <img
+                    src="./images/img8.jpg"
+                    alt="фото с людьмии"
+                    width="370"
+                  />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -105,15 +157,44 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
-                  <img src="./images/img9.jpg" alt="баскетболисты" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img9.jpg    1x,
+                        ./images/desktop/img9.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img9.jpg    1x,
+                        ./images/tablet/img9.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img9.jpg    1x,
+                        ./images/mobile/img9.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
+                  <img
+                    src="./images/img9.jpg"
+                    alt="баскетболисты"
+                    width="370"
+                  />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
+                  <h2 class="portfolio__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
                   <p lang="en" class="portfolio__text">Дизайн</p>
                 </div>
               </a>
@@ -121,11 +202,38 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
-                  <img src="./images/img10.jpg" alt="лейбл ресторана" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img10.jpg    1x,
+                        ./images/desktop/img10.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img10.jpg    1x,
+                        ./images/tablet/img10.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img10.jpg    1x,
+                        ./images/mobile/img10.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
+                  <img
+                    src="./images/img10.jpg"
+                    alt="лейбл ресторана"
+                    width="370"
+                  />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -137,11 +245,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img11.jpg    1x,
+                        ./images/desktop/img11.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img11.jpg    1x,
+                        ./images/tablet/img11.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img11.jpg    1x,
+                        ./images/mobile/img11.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img11.jpg" alt="наушники" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -153,11 +284,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img12.jpg    1x,
+                        ./images/desktop/img12.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img12.jpg    1x,
+                        ./images/tablet/img12.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img12.jpg    1x,
+                        ./images/mobile/img12.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img12.jpg" alt="коробки" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -169,11 +323,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img13.jpg    1x,
+                        ./images/desktop/img13.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img13.jpg    1x,
+                        ./images/tablet/img13.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img13.jpg    1x,
+                        ./images/mobile/img13.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img13.jpg" alt="монитор" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -185,11 +362,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img14.jpg    1x,
+                        ./images/desktop/img14.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img14.jpg    1x,
+                        ./images/tablet/img14.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img14.jpg    1x,
+                        ./images/mobile/img14.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img14.jpg" alt="журнал" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -201,11 +401,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img15.jpg    1x,
+                        ./images/desktop/img15.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img15.jpg    1x,
+                        ./images/tablet/img15.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img15.jpg    1x,
+                        ./images/mobile/img15.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img15.jpg" alt="лейбл" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -217,11 +440,34 @@
             <li class="portfolio__list">
               <a href="" class="portfolio__gallery-link">
                 <div class="portfolio__thumb-card">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/img16.jpg    1x,
+                        ./images/desktop/img16.2x.jpg 2x
+                      "
+                      media="(min-width:1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/img16.jpg    1x,
+                        ./images/tablet/img16.2x.jpg 2x
+                      "
+                      media="(min-width:768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/img16.jpg    1x,
+                        ./images/mobile/img16.2x.jpg 2x
+                      "
+                      media="(min-width:480px)"
+                    />
+                  </picture>
                   <img src="./images/img16.jpg" alt="ноутбук" width="370" />
                   <p class="portfolio__resourse">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
-                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
-                    или частном лице.
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
                 <div class="portfolio__wrap">
@@ -237,17 +483,25 @@
     <footer class="footer">
       <div class="container container-footer">
         <div class="footer-nav">
-          <a class="logo" href="">Web<span class="logostudiofooter">Studio</span></a>
+          <a class="logo" href=""
+            >Web<span class="logostudiofooter">Studio</span></a
+          >
           <address class="address">
             <ul class="footerlist">
               <li class="item">
-                <a class="footerlist-address" href="">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="footerlist-address" href=""
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
               </li>
               <li class="item">
-                <a class="footerlist-mailto" href="mailto:info@example.com">info@example.com</a>
+                <a class="footerlist-mailto" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
               </li>
               <li class="item">
-                <a class="footerlist-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="footerlist-tel" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>

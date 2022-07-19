@@ -6,12 +6,16 @@
 }
 .logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
-  @include font(700, 26px, 1.19, 0.03em);
-  // font-weight: 700;
-  // font-size: 26px;
-  // line-height: 1.19;
-  // letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  @include mobile {
+    @include font(null, null, 1.17, 0.03em);
+  }
+  @include tablet {
+    @include font(null, null, 1.17, 0.03em);
+  }
+  @include desktop {
+    @include font(null, 26px, 1.19, 0.03em);
+  }
 }
 .logostudio {
   color: var(--primary-text-color);
@@ -29,17 +33,19 @@
 }
 .navlist.__link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  @include tablet {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  @include desktop {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 .navlist__item,
 .navlist__item,
 .navlist__item {
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   color: var(--primary-text-color);
   transition: color 250ms var(--function-time);
   &:hover,
@@ -53,10 +59,6 @@
   padding: 32px 0;
   color: var(--primary-text-color);
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   transition: color 250ms var(--function-time);
   &.link-current {
     color: var(--accent-color);
@@ -66,7 +68,7 @@
   position: relative;
   color: var(--accent-color);
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -83,10 +85,6 @@
 .menu-list__nav {
   color: var(--title-text-color);
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   transition: color 250ms var(--function-time);
   &:hover,
   &:focus {
@@ -96,10 +94,6 @@
 .menu-list a {
   color: var(--title-text-color);
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   @extend %align-list;
   gap: 10px;
   &:hover,

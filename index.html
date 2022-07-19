@@ -22,14 +22,20 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container">
         <div class="container-nav">
           <nav class="container-nav">
-            <a class="logo" href="./index.html">Web<span class="logostudio">Studio</span></a>
+            <a class="logo" href="./index.html"
+              >Web<span class="logostudio">Studio</span></a
+            >
             <ul class="navlist">
               <li class="navlist__item">
-                <a class="navlist__link navlist__link--current" href="./index.html">Студия</a>
+                <a
+                  class="navlist__link navlist__link--current"
+                  href="./index.html"
+                  >Студия</a
+                >
               </li>
               <li class="navlist__item">
                 <a class="navlist__link" href="./portfolio.html">Портфолио</a>
@@ -70,7 +76,9 @@
           >
             Эффективные решения <br />для вашего бизнеса
           </h1>
-          <button type="button" class="button" data-modal-open>Заказать услугу</button>
+          <button type="button" class="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section">
@@ -83,10 +91,10 @@
                   <use href="./images/icons.svg#icon-vector-3"></use>
                 </svg>
               </div>
-
               <h3 class="benefits__section-title">Внимание к деталям</h3>
               <p class="benefits__section-text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
               </p>
             </li>
             <li class="item-list">
@@ -98,7 +106,8 @@
 
               <h3 class="benefits__section-title">Пунктуальность</h3>
               <p class="benefits__section-text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
               </p>
             </li>
             <li class="item-list">
@@ -109,7 +118,8 @@
               </div>
               <h3 class="benefits__section-title">Планирование</h3>
               <p class="benefits__section-text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
               </p>
             </li>
             <li class="item-list">
@@ -120,193 +130,333 @@
               </div>
               <h3 class="benefits__section-title">Современные технологии</h3>
               <p class="benefits__section-text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
               </p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="work-about section">
+      <!-- <section class="work-about section">
         <div class="container">
           <h2 class="title" data-aos="flip-left">Чем мы занимаемся</h2>
           <ul class="cards">
             <li class="item">
               <div class="thumb">
-                <img src="./images/img1.jpg" alt="верстка и дизайн" width="370" />
-                <p class="thumb__application thumb__work">Десктопные приложения</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/img1.jpg    1x,
+                      ./images/desktop/img1.2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img1.jpg"
+                    alt="верстка и дизайн"
+                    width="370"
+                  />
+                </picture>
+                <p class="thumb__application thumb__work">
+                  Десктопные приложения
+                </p>
               </div>
             </li>
             <li class="item">
               <div class="thumb">
-                <img src="./images/img2.jpg" alt="разработка мобильных приложений" width="370" />
-                <p class="thumb__application thumb__work">Мобильные приложения</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/img2.jpg    1x,
+                      ./images/desktop/img2.2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img2.jpg"
+                    alt="разработка мобильных приложений"
+                    width="370"
+                  />
+                </picture>
+                <p class="thumb__application thumb__work">
+                  Мобильные приложения
+                </p>
               </div>
             </li>
             <li class="item">
               <div class="thumb">
-                <img src="./images/img3.jpg" alt="работа на планшете" width="370" />
-                <p class="thumb__application thumb__work">Дизайнерские решения</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/img3.jpg    1x,
+                      ./images/desktop/img3.2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    src="./images/img3.jpg"
+                    alt="работа на планшете"
+                    width="370"
+                  />
+                </picture>
+                <p class="thumb__application thumb__work">
+                  Дизайнерские решения
+                </p>
               </div>
             </li>
           </ul>
         </div>
       </section> -->
-    <section class="section-comand section">
-      <div class="container">
-        <h2 class="title" data-aos="zoom-in">Наша команда</h2>
-        <ul class="section-comand__list">
-          <li class="list-item">
-            <img src="./images/img4.jpg" alt="работник1" width="270" />
-            <div class="section-comand__personal">
-              <h3 lang="en" class="section-comand__title">Игорь Демьяненко</h3>
-              <p lang="en" class="section-comand__text">Product Designer</p>
-              <ul class="team-masters">
-                <li class="team-masters__comand team__comand">
-                  <a href="instagram.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-insta"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="twitter.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twit"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="facebook.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-fb"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="linkedin.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-in"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="list-item">
-            <img src="./images/img5.jpg" alt="работник2" width="270" />
-            <div class="section-comand__personal">
-              <h3 lang="en" class="section-comand__title">Ольга Репина</h3>
-              <p lang="en" class="section-comand__text">Frontend Developer</p>
-              <ul class="team-masters">
-                <li class="team-masters__comand team__comand">
-                  <a href="instagram.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-insta"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="twitter.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twit"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="facebook.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-fb"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="linkedin.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-in"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="list-item">
-            <img src="./images/img6.jpg" alt="работник3" width="270" />
-            <div class="section-comand__personal">
-              <h3 lang="en" class="section-comand__title">Николай Тарасов</h3>
-              <p lang="en" class="section-comand__text">Marketing</p>
-              <ul class="team-masters">
-                <li class="team-masters__comand team__comand">
-                  <a href="instagram.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-insta"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="twitter.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twit"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="facebook.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-fb"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="linkedin.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-in"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="list-item">
-            <img src="./images/img7.jpg" alt="работник4" width="270" />
-            <div class="section-comand__personal">
-              <h3 lang="en" class="section-comand__title">Михаил Ермаков</h3>
-              <p lang="en" class="section-comand__text">UI Designer</p>
-              <ul class="team-masters">
-                <li class="team-masters__comand team__comand">
-                  <a href="instagram.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-insta"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="twitter.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twit"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="facebook.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-fb"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-masters__comand team__comand">
-                  <a href="linkedin.com" class="team-masters__soc">
-                    <svg class="team-masters__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-in"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- <section class="clients section">
+      <section class="section-comand section">
+        <div class="container">
+          <h2 class="title" data-aos="zoom-in">Наша команда</h2>
+          <ul class="section-comand__list">
+            <li class="list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img4.jpg    1x,
+                    ./images/desktop/img4.2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/img4.jpg    1x,
+                    ./images/tablet/img4.2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/img4.jpg    1x,
+                    ./images/mobile/img4.2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+              </picture>
+              <img src="./images/img4.jpg" alt="работник1" width="270" />
+              <div class="section-comand__personal">
+                <h3 lang="en" class="section-comand__title">
+                  Игорь Демьяненко
+                </h3>
+                <p lang="en" class="section-comand__text">Product Designer</p>
+                <ul class="team-masters">
+                  <li class="team-masters__comand team__comand">
+                    <a href="instagram.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="twitter.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="facebook.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="linkedin.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-in"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img5.jpg    1x,
+                    ./images/desktop/img5.2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/img5.jpg    1x,
+                    ./images/tablet/img5.2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/img5.jpg    1x,
+                    ./images/mobile/img5.2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+              </picture>
+              <img src="./images/img5.jpg" alt="работник2" width="270" />
+              <div class="section-comand__personal">
+                <h3 lang="en" class="section-comand__title">Ольга Репина</h3>
+                <p lang="en" class="section-comand__text">Frontend Developer</p>
+                <ul class="team-masters">
+                  <li class="team-masters__comand team__comand">
+                    <a href="instagram.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="twitter.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="facebook.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="linkedin.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-in"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img6.jpg    1x,
+                    ./images/desktop/img6.2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/img6.jpg    1x,
+                    ./images/tablet/img6.2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/img6.jpg    1x,
+                    ./images/mobile/img6.2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+              </picture>
+              <img src="./images/img6.jpg" alt="работник3" width="270" />
+              <div class="section-comand__personal">
+                <h3 lang="en" class="section-comand__title">Николай Тарасов</h3>
+                <p lang="en" class="section-comand__text">Marketing</p>
+                <ul class="team-masters">
+                  <li class="team-masters__comand team__comand">
+                    <a href="instagram.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="twitter.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="facebook.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="linkedin.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-in"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/img7.jpg    1x,
+                    ./images/desktop/img7.2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/img7.jpg    1x,
+                    ./images/tablet/img7.2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/img7.jpg    1x,
+                    ./images/mobile/img7.2x.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+              </picture>
+              <img src="./images/img7.jpg" alt="работник4" width="270" />
+              <div class="section-comand__personal">
+                <h3 lang="en" class="section-comand__title">Михаил Ермаков</h3>
+                <p lang="en" class="section-comand__text">UI Designer</p>
+                <ul class="team-masters">
+                  <li class="team-masters__comand team__comand">
+                    <a href="instagram.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="twitter.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="facebook.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-masters__comand team__comand">
+                    <a href="linkedin.com" class="team-masters__soc">
+                      <svg class="team-masters__icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-in"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients section">
         <div class="container">
           <h3 class="title" data-aos="fade-down">Постоянные клиенты</h3>
           <ul class="clients-list">
@@ -357,7 +507,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-footer">
         <div class="footer-nav">
           <a class="logo" href="">Web<span class="logostudiofooter">Studio</span></a>
@@ -429,7 +579,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>  -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-button-close" data-modal-close>

@@ -1,43 +1,47 @@
-@import './utils/vars';
+@import "./utils/vars";
 
-@import './base/common';
+@import "./base/common";
 
-@import './base/reset';
+@import "./base/reset";
 
-@import './utils/hiden';
+@import "./utils/hiden";
 
-@import './utils/plaseholders';
+@import "./utils/plaseholders";
 
-@import './utils/mixins';
+@import "./utils/mixins";
 
-@import './components/container';
+@import "./components/container";
 
-@import './layout/header';
+@import "./layout/header";
 
-@import './components/navlist';
+@import "./components/navlist";
 
-@import './components/menu-list';
+@import "./components/menu-list";
 
-@import './layout/hero-section';
+@import "./layout/hero-section";
 
-@import './components/button';
+@import "./components/button";
 
-@import './layout/section';
+@import "./components/section";
 
-@import './layout/work section';
+@import "./components/title";
 
-@import './layout/comand-section';
+@import "./layout/benefits";
 
-@import './components/team-masters';
+@import "./layout/work section";
 
-@import './layout/clients section';
+@import "./layout/comand-section";
 
-@import './layout/footer';
+@import "./components/team-masters";
 
-@import './components/modal';
+@import "./layout/clients section";
 
-@import './components/portfolio button';
+@import "./layout/footer";
 
-@import './layout/portfolio-title';
+@import "./components/modal";
 
-@import './components/portfolio-container';
+@import "./components/portfolio button";
+
+@import "./layout/portfolio-title";
+
+@import "./components/portfolio-container";

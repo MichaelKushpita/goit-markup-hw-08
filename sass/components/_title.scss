@@ -1,0 +1,17 @@
+.title {
+  @media screen and (min-width: 480px) {
+    @include font(700, 28px, 1.17, 0.03em);
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    @include font(null, null, 1.17, 0.03em);
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    @include font(null, 36px, 1.17, 0.03em);
+    margin-bottom: 50px;
+  }
+  padding-top: 0px;
+  text-align: center;
+  color: var(--primary-text-color);
+}

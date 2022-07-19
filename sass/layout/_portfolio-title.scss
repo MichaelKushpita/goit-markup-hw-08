@@ -2,19 +2,11 @@
   margin-bottom: 4px;
   color: var(--primary-text-color);
   @include font(700, 18px, 2, 0.06em);
-  // font-weight: 700;
-  // font-size: 18px;
-  // line-height: 2;
-  // letter-spacing: 0.06em;
   text-align: left;
 }
 .portfolio__text {
   color: var(--title-text-color);
   @include font(null, 16px, 1.88, 0.03em);
-  // font-size: 16px;
-  // line-height: 1.88;
-  // text-align: left;
-  // letter-spacing: 0.03em;
 }
 .portfolio {
   padding-top: 6px;
