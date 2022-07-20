@@ -265,6 +265,12 @@ ul {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+}
+
 .menu-icon {
   color: var(--primary-text-color);
   background: var(--white-text-color);
@@ -301,6 +307,12 @@ ul {
   height: 100%;
   justify-content: space-between;
   overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu {
+    display: none;
+  }
 }
 
 .navmenu {
@@ -386,13 +398,13 @@ ul {
 }
 
 .navlist {
-  display: none;
+  display: flex;
   align-items: center;
   margin-left: 93px;
 }
 
 .menu-list {
-  display: none;
+  display: block;
   margin-left: auto;
 }
 
@@ -549,10 +561,6 @@ ul {
 }
 
 /* ================ ===============заголовок h2 секція=================== */
-.item-list {
-  flex-basis: calc((100% - 90px) / 4);
-}
-
 .benefits {
   margin-bottom: 30px;
   height: 120px;
@@ -578,22 +586,24 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.benefits__section-text .section-list {
+
+.section-list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 30px;
 }
-.benefits__section-text .section-list > .list-item {
+
+.section-list > .item-list {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .benefits__section-text .section-list > .list-item {
+  .section-list > .item-list {
     width: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
-  .benefits__section-text .section-list > .list-item {
+  .section-list > .item-list {
     width: calc((100% - 90px) / 4);
   }
 }
