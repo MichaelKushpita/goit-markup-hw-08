@@ -63,6 +63,65 @@
             </li>
           </ul>
         </div>
+        <button type="button" class="menu-open-btn">
+          <svg class="menu-icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-mob"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="header-menu is hidden">
+        <div class="container">
+          <div class="header-menu__top">
+            <button type="button" class="menu-close-bnt">
+              <svg class="menu-icon" width="40" height="40">
+                <use href="./images/icons.svg#icon-vector-x"></use>
+              </svg>
+            </button>
+            <ul class="navmenu">
+              <li class="navmenu__item">
+                <a
+                  class="navmenu__link navmenu__link--current"
+                  href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="navmenu__item">
+                <a class="navmenu__link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="navmenu__item">
+                <a class="navmenu__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu__top">
+            <ul class="mob-list">
+              <li class="mob-list__item">
+                <a class="mob-list__nav" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="mob-list__item">
+                <a class="mob-list__nav--mob" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="header-soc__list">
+              <li class="header-soc__item">
+                <a href="" class="header-soc__link">Instagram</a>
+              </li>
+              <li class="header-soc__item">
+                <a href="" class="header-soc__link">Twitter</a>
+              </li>
+              <li class="header-soc__item">
+                <a href="" class="header-soc__link">Facebook</a>
+              </li>
+              <li class="header-soc__item">
+                <a href="" class="header-soc__link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -103,7 +162,6 @@
                   <use href="./images/icons.svg#icon-vector-2"></use>
                 </svg>
               </div>
-
               <h3 class="benefits__section-title">Пунктуальность</h3>
               <p class="benefits__section-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -234,8 +292,8 @@
                   "
                   media="(min-width:480px)"
                 />
+                <img src="./images/img4.jpg" alt="работник1" width="270" />
               </picture>
-              <img src="./images/img4.jpg" alt="работник1" width="270" />
               <div class="section-comand__personal">
                 <h3 lang="en" class="section-comand__title">
                   Игорь Демьяненко
@@ -296,8 +354,8 @@
                   "
                   media="(min-width:480px)"
                 />
+                <img src="./images/img5.jpg" alt="работник2" width="270" />
               </picture>
-              <img src="./images/img5.jpg" alt="работник2" width="270" />
               <div class="section-comand__personal">
                 <h3 lang="en" class="section-comand__title">Ольга Репина</h3>
                 <p lang="en" class="section-comand__text">Frontend Developer</p>
@@ -356,8 +414,8 @@
                   "
                   media="(min-width:480px)"
                 />
+                <img src="./images/img6.jpg" alt="работник3" width="270" />
               </picture>
-              <img src="./images/img6.jpg" alt="работник3" width="270" />
               <div class="section-comand__personal">
                 <h3 lang="en" class="section-comand__title">Николай Тарасов</h3>
                 <p lang="en" class="section-comand__text">Marketing</p>
@@ -416,8 +474,8 @@
                   "
                   media="(min-width:480px)"
                 />
+                <img src="./images/img7.jpg" alt="работник4" width="270" />
               </picture>
-              <img src="./images/img7.jpg" alt="работник4" width="270" />
               <div class="section-comand__personal">
                 <h3 lang="en" class="section-comand__title">Михаил Ермаков</h3>
                 <p lang="en" class="section-comand__text">UI Designer</p>
@@ -669,5 +727,6 @@
       AOS.init();
     </script>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

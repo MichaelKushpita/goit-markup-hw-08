@@ -1,4 +1,5 @@
 .navlist {
-  @extend %align-list;
+  display: none;
+  align-items: center;
   margin-left: 93px;
 }
